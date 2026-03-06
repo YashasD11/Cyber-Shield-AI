@@ -1,0 +1,97 @@
+
+Dataset Description
+
+1. Phishing Email Dataset
+Overview
+
+The Phishing Email Dataset contains email messages labeled as either phishing or legitimate. 
+The dataset is used to train machine learning models to automatically detect malicious phishing 
+emails based on textual content.
+
+Phishing emails attempt to deceive users into revealing sensitive information such as passwords, 
+financial details, or personal data. This dataset supports the development of email security 
+systems and phishing detection models.
+
+Dataset Characteristics
+Type: Text classification dataset
+Task: Binary classification
+Input: Email content
+Output: Phishing or legitimate label
+
+Columns
+Email Text  - The content of the email message used as input for classification
+Email Type  - Label indicating whether the email is phishing or safe
+
+Machine Learning Task
+Binary Text Classification
+
+Target Labels
+Phishing - Email contains malicious or fraudulent content
+Safe     - Email is legitimate and non-malicious
+
+Applications
+Email security systems
+Spam filtering
+Fraud detection systems
+Cybersecurity analytics
+
+
+2. UNSW-NB15 Network Intrusion Dataset
+Overview
+
+The UNSW-NB15 dataset is a widely used cybersecurity dataset designed for network intrusion 
+detection research. It contains network traffic features extracted from simulated network 
+environments and labeled as either normal traffic or attack traffic.
+
+The dataset supports the development of intrusion detection systems (IDS) capable of identifying 
+malicious network activity.
+
+Dataset Files
+UNSW_NB15_training-set.csv
+UNSW_NB15_testing-set.csv
+
+Dataset Characteristics
+Type: Network intrusion detection dataset
+Task: Binary or multi-class classification
+Records: Network traffic flow data
+Features: 40+ network traffic attributes
+
+Example Features
+srcip    - Source IP address
+sport    - Source port number
+dstip    - Destination IP address
+dsport   - Destination port number
+proto    - Network protocol used
+service  - Network service type
+state    - Connection state
+dur      - Duration of the connection
+sbytes   - Source to destination bytes
+dbytes   - Destination to source bytes
+
+Target Variables
+attack_cat - Category of attack
+label      - Binary classification label
+
+Target Labels
+0 - Normal network traffic
+1 - Attack traffic
+
+Attack Categories
+DoS (Denial of Service)
+Exploits
+Reconnaissance
+Fuzzers
+Shellcode
+Backdoor
+Worms
+Generic attacks
+
+Machine Learning Task
+Network Intrusion Detection
+
+Applications
+Intrusion Detection Systems (IDS)
+Network traffic monitoring
+Cybersecurity threat detection
+Anomaly detection in network traffic
+Security analytics platforms
