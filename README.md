@@ -160,7 +160,7 @@ OpenAI API (optional)
 
 How to Run the Project
 Clone the repository
-git clone https://github.com/yourusername/cyber-shield-ai.git
+git clone https://github.com/YashasD11/Cyber-Shield-AI.git
 Navigate to the project directory
 cd cyber-shield-ai
 Install required libraries
